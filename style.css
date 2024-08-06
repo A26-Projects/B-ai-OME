@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.home_title {
+    font-family: "Space Mono", monospace;
+    font-size: 5vw;
+    text-align: center;
+    color: #FCFFEB;
+    padding-top: 5.5vw;
+}
+
+body {
+    margin: 0.8vh;
+    background-color: #f6f1d1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.2s linear;
+}
+
+.menubar {
+    vertical-align: middle;
+    background-color: #172E08;;
+    height: 6vw;
+}
+
+.home {
+    background-image: url("images/city_home.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 98.4vh;
+}
+
+.menu_buttons {
+    display: flexbox;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0.9vw;
+    padding-bottom: 2.3%;
+    margin-left: 10%;
+    margin-top: 1.35%;
+    margin-bottom: 1%;
+    background-color: #172E08;
+    border: 0.03in solid #FCFFEB;
+    color: #FCFFEB;
+    border-radius: 6%;
+    width: 8%;
+    height: 0.8%;
+    transition: 0.15s linear;
+    font-family: 'Josefin Sans', Times, serif;
+    font-size: 1.5vw;
+}
+
+.menu_buttons:hover {
+    color: #172E08;
+    background-color: #FCFFEB;
+    
+}
+
+.home_text_left {
+    background-color: rgba(23, 46, 8, 0.8);   
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    height: 25vw;
+}
+
+.home_title_buttons {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1.2vw;
+    padding-bottom: 0.9vw;
+    margin-left: 13.5vw;
+    margin-bottom: 1%;
+    background-color: #172E08;
+    border: 0.03in solid #FCFFEB;
+    color: #FCFFEB;
+    border-radius: 2%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 0.8%;
+    transition: 0.15s linear;
+    font-family: 'Josefin Sans', Times, serif;
+    font-size: 1.5vw;
+}
+
+.home_title_buttons:hover {
+    background-color: #FCFFEB;
+    color: #172E08;
+}
+
+
+
+
+
+
+.about {
+    background-color: #f6f1d1;
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+.abt_main_text {
+    font-family: "Space Mono", monospace;
+    font-size: 4.5vw;
+    text-align: center;
+    color:#172E08;
+    padding-top: 3.5vw;
+    margin-top: 0vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+}
+
+.abt_title {
+    font-family: "Space Mono", monospace;
+    font-size: 2vw;
+    text-align: center;
+    color:#388659;
+
+}
+
+.abt_img {
+    width: 40vw;
+    height: 40vw;
+    border: 0.4vw #172E08 solid;
+}
+
+
+
+.abt_img_right {
+    margin-left: 55vw;
+    margin-top: 5vw;
+    position: absolute;
+}
+
+.abt_text_left {
+    width: 49.5vw;
+    position: absolute;
+    height: 25vw;
+    margin-top: 2.75vw;
+}
+
+.abt_text {
+    font-size: 1.2vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7vw;
+    margin-bottom: 5vw;
+}
+
+.abt_title_buttons {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1.2vw;
+    padding-bottom: 2.4vw;
+    margin-left: 16vw;
+    background-color: #f6f1d1;
+    border: 0.03in solid #172E08;
+    color: #172E08;
+    border-radius: 2%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 0.8%;
+    transition: 0.15s linear;
+    font-family: 'Josefin Sans', Times, serif;
+    font-size: 1.5vw;
+}
+
+.abt_title_buttons:hover {
+    background-color: #172E08;
+    color: #f6f1d1;
+}
+
+.habitats {
+    background-color: #f6f1d1;
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+.habitats_main_text {
+    font-family: "Space Mono", monospace;
+    font-size: 3vw;
+    text-align: center;
+    color:#172E08;
+    padding-top: 3.5vw;
+    margin-top: 0vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+}
+
+.habitats_carousel {
+    width: 80vw;
+    height: 40vw;
+}
+
+.habitats_img_div {
+    width: 48vw;
+    height: 34vw;
+    margin-top: 0vw;
+    padding-top: 5vw;
+    margin-left: 9vw;
+}
+
+.habitats_img {
+    width: 80vw;
+    height: 35vw;
+    transition: 0.2s linear;
+    box-shadow: 1vw 1vw #172E08;
+}
+
+.habitats_img_div:not(:first-child) {
+    display: none;
+}
+
+.habitats_carousel_text_div:not(:first-child) {
+    display: none;
+}
+
+.habitats_carousel_text_div_main {
+    margin-left: 12vw;
+    width: 75vw;
+}
+
+.habitats_carousel_text {
+    color: rgba(23, 46, 8, 0.8);
+    font-size: 1.2vw;
+    font-family: 'Space Mono';
+    justify-content: center;
+    font-weight: 300;
+}
+
+.habitats_buttons {
+    margin-top: 3.5vw;
+    margin-left: 8.5vw;
+}
+
+#habitats_carousel_buttons {
+    text-decoration: none;
+    background-color: #f6f1d1;
+    color: rgba(23, 46, 8, 0.6);
+    border: none;
+    font-size: 1.8vw;
+    font-family: "Space Mono", monospace;
+    margin-left: 6.5vw;
+    transition: 0.15s linear;
+}
+
+#habitats_carousel_buttons:hover {
+    text-decoration: none;
+    background-color: #f6f1d1;
+    color: rgba(23, 46, 8, 0.6);
+    box-shadow: 0vw 0.6vw rgba(23, 46, 8, 0.6);
+    cursor: pointer;
+    border: none;
+    font-size: 1.85vw;
+    font-family: "Space Mono", monospace;
+    margin-left: 6.5vw;
+}
+
+.active {
+    color: #172E08 !important;
+    transition: 0.2s linear;
+    font-weight: 900;
+}
+
+.active:hover {
+    box-shadow: 0vw 0.6vw #172e08 !important;
+}
+
+
+
+
+
+.features {
+    background-color: #f6f1d1;
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+.features_main_text_h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3.2vw;
+    text-align: center;
+    color:#172E08;
+    padding-top: 5vw;
+    margin-top: 0vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+}
+
+.features_main_div {
+    width: 25vw;
+    height: 40vw;
+    display: block;
+    margin-left: 6vw;
+}
+
+.features_img_div {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    background-color: #388659;
+    transition: all 0.05s linear;
+    border: 0.5vw solid #172E08;
+}
+
+.features_img_div:hover {
+    border: 1vw solid #172E08;
+}
+
+.features_div {
+    display: flex;
+    margin-top: 3vw;
+}
+
+.features_main_text {
+    font-size: 2vw;
+    font-family: "Space Mono";
+    color: #172E08;
+    margin-left: 4.5vw;
+    margin-top: 4vw;
+}
+
+.features_description_text {
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #172E08;
+    width: 22vw;
+    margin-left: 2vw;
+    text-align: left;
+}
+
+.features_title_buttons {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1.2vw;
+    padding-bottom: 2.25vw;
+    margin-left: 43vw;
+    background-color: #f6f1d1;
+    border: 0.03in solid #172E08;
+    color: #172E08;
+    border-radius: 2%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 0.8%;
+    font-size: 1.3vw;
+    margin-top: 2.25vw;
+    transition: 0.15s linear;
+    font-family: 'Josefin Sans', Times, serif;
+}
+
+.features_title_buttons:hover {
+    background-color: #172E08;
+    color: #f6f1d1;
+}
+
+
+
+.contact {
+    background-color: #f6f1d1;
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+.contact_logo_div {
+    padding-top: 1vw;
+    width: 30vw;
+    height: 30vw;
+    display: block;
+    padding-left: 4vw;
+}
+
+.contact_logo {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    border: 1vw solid #388659;
+    transition: all 0.05s linear;
+}
+
+.contact_logo:hover {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    border: 1.5vw solid #388659;
+}
+
+.contact_main_text_h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 3.5vw;
+    text-align: center;
+    color:#172E08;
+    padding-top: 5vw;
+    margin-top: 0vw;
+    padding-bottom: 5vw;
+    margin-bottom: 0vw;
+}
+
+.contact_details_div {
+    border-radius: 50%;
+    background-color: #FCFFEB;
+    border: 0.5vw solid #172e08;
+    width: 7vw;
+    height: 7vw;
+    margin-left: 15vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    display: block;
+}
+
+.contact_img {
+    width: 4.5vw;
+    position: absolute;
+    height: 4.5vw;
+    color: #FCFFEB;
+    padding-top: 1.3vw;
+    padding-left: 1.2vw;
+    padding-bottom: 1.3vw;
+}
+
+.contact_details_div:hover {
+    border-radius: 50%;
+    background-color: #FCFFEB;
+    border: 0.7vw solid #172e08;
+    width: 7vw;
+    height: 7vw;
+    margin-left: 15vw;
+    margin-top: 3vw;
+    display: block;
+}
+
+.contact_text {
+    display: block;
+    margin-left: 10vw;
+    padding: 1vw;
+    position: absolute;
+    font-family: 'Space Mono';
+    font-size: 1.4vw;
+}
+
+
+
+.contact_flex {
+    display: flex;
+}
+
+.contact_title_buttons {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1.2vw;
+    padding-bottom: 2.25vw;
+    margin-left: 43vw;
+    background-color: #f6f1d1;
+    border: 0.03in solid #172E08;
+    color: #172E08;
+    border-radius: 2%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 0.8%;
+    font-size: 1.3vw;
+    margin-top: 2.25vw;
+    transition: 0.15s linear;
+    font-family: 'Josefin Sans', Times, serif;
+}
+
+.contact_title_buttons:hover {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1.2vw;
+    padding-bottom: 2.25vw;
+    margin-left: 43vw;
+    background-color: #172E08;
+    border: 0.03in solid #172E08;
+    color: #FCFFEB;
+    border-radius: 2%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 0.8%;
+    font-size: 1.3vw;
+    margin-top: 2.25vw;
+    transition: 0.15s linear;
+    font-family: 'Josefin Sans', Times, serif;
+}
