@@ -1,8 +1,0 @@
-Image Generation - DALLE-3 ChatGPT 4o
-https://dev.to/mohdhussein/how-to-show-the-clicked-element-only-and-hide-others-in-vanilla-javascript-1ip2
-https://www.w3schools.com/css/default.asp
-
-Icons
-<a target="_blank" href="https://icons8.com/icon/53388/mail">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-<a target="_blank" href="https://icons8.com/icon/3723/location">Location</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-<a target="_blank" href="https://icons8.com/icon/9659/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
